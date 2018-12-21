@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/jpmctest">
+        <exclude pattern="/apps/jpmctest/install" />
+    </filter>
+    <filter root="/apps/sling" />
+    <filter root="/etc/designs/jpmctest"/>
+</workspaceFilter>

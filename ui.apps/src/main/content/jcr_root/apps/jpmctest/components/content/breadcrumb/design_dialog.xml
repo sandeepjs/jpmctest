@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Breadcrumb (Design)"
+    xtype="panel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <startLevel
+            jcr:primaryType="nt:unstructured"
+            fieldDescription="Absolute page tree depth (eg: 1 for /content/site)"
+            fieldLabel="Start Level (absolute)"
+            name="./startLevel"
+            xtype="numberfield"/>
+        <stopLevel
+            jcr:primaryType="nt:unstructured"
+            fieldDescription="Relative to current page (eg: 0 for current page)"
+            fieldLabel="Stop level (relative)"
+            name="./stopLevel"
+            xtype="numberfield"/>
+    </items>
+</jcr:root>
